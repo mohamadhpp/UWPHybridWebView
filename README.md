@@ -6,7 +6,7 @@ Access to Windows functions is also preserved in place.**
 
 **You can use this for Vue, React and Angular projects.**
 
-_*Nuget:*_ https://www.nuget.org/packages/UWPHybridWebView/1.0.0
+_*Nuget:*_ [See Nuget Page](https://www.nuget.org/packages/UWPHybridWebView/1.0.0)
 
  - [Usage](#Usage)
  - [Methods](#Methods)
