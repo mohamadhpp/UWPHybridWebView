@@ -1,12 +1,13 @@
 # **UWP Hybrid WebView**
-This repo .NET UWP HybridWebView control, which enables hosting arbitrary HTML/JS/CSS content in a WebView and enables communication between the code in the WebView (JavaScript) and the code that hosts the WebView (C#/.NET).
+This repo .NET UWP Hybrid Web View control, which enables hosting arbitrary HTML/JS/CSS content in a WebView and enables communication between the code in the WebView (JavaScript) and the code that hosts the WebView (C#/.NET).
 
 **It is possible to convert web applications to Windows application mode and even use it in kiosk mode.
 Access to Windows functions is also preserved in place.**
 
+**You can use this for Vue, React and Angular projects.**
 
  - [Usage](#Usage)
- - [Apis](#Apis)
+ - [Methods](#Methods)
  - [Events](#Events)
 
 ## **Support Information**
@@ -56,9 +57,9 @@ You can use this method for call a method from Js.
 
 ```
 ExecuteJsScriptAsync(string methodName, string[] args)
-
+```
 Example:
-
+```
 webview.ExecuteJsScriptAsync("SayMyName", names);
 webview.ExecuteJsScriptAsync("JsMethod", null);
 ```
@@ -70,9 +71,9 @@ window.{MethodName} = function ()
 {
     ...
 }
-
+```
 Example:
-
+```
 window.JsMethod = function ()
 {
     alert("Js Method");
