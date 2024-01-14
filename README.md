@@ -6,7 +6,7 @@ Access to Windows functions is also preserved in place.**
 
 
  - [Usage](#Usage)
- - [Apis](#Apis)
+ - [Methods](#Methods)
  - [Events](#Events)
 
 ## **Support Information**
