@@ -56,9 +56,9 @@ You can use this method for call a method from Js.
 
 ```
 ExecuteJsScriptAsync(string methodName, string[] args)
-
+```
 Example:
-
+```
 webview.ExecuteJsScriptAsync("SayMyName", names);
 webview.ExecuteJsScriptAsync("JsMethod", null);
 ```
@@ -70,9 +70,9 @@ window.{MethodName} = function ()
 {
     ...
 }
-
+```
 Example:
-
+```
 window.JsMethod = function ()
 {
     alert("Js Method");
