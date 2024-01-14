@@ -4,6 +4,7 @@ This repo .NET UWP HybridWebView control, which enables hosting arbitrary HTML/J
 **It is possible to convert web applications to Windows application mode and even use it in kiosk mode.
 Access to Windows functions is also preserved in place.**
 
+**You can use this for Vue, React and Angular projects.**
 
  - [Usage](#Usage)
  - [Methods](#Methods)
