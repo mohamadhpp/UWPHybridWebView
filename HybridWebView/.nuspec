@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<package  xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>   
+    <id>UWP Hybrid Web View</id>
+    <version>1.0.0</version>
+    <title>UWP Hybrid Web View</title>
+    <authors>mohamadhpp</authors>
+    <owners>mohamadhpp</owners>
+    <licenseUrl>https://github.com/mohamadhpp/UWPHybridWebView/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mohamadhpp/UWPHybridWebView</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This UWP .NET Library UWP Hybrid Web View control, which enables hosting arbitrary HTML/JS/CSS content in a WebView and enables communication between the code in the WebView (JavaScript) and the code that hosts the WebView (C#/.NET). You can use this for Vue, React and Angular projects.</description>
+    <releaseNotes>UWP HWV(Hybrid Web View) V1.0.0</releaseNotes>
+    <copyright></copyright>
+    <tags>UWP Hybrid Web View 1.0.0</tags>
+    <dependencies>
+      <dependency id="Microsoft.NETCore.UniversalWindowsPlatform" />
+      <dependency id="Microsoft.UI.Xaml" />
+    </dependencies>
+    <summary></summary>
+  </metadata>
+  <files>
+    <file src="README.md" target="" />
+  </files>
+</package>
