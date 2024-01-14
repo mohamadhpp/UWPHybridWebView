@@ -2,16 +2,17 @@
     x:Class="UWPVueHybridApp.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:UWPVueHybridApp"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:controls="using:Microsoft.UI.Xaml.Controls"
-    xmlns:hybrid="using:HybridWebView"
+    xmlns:hwv="using:HybridWebView"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <!--<controls:WebView2 x:Name="webview" />-->
-        <hybrid:HybridWebView AppName="appassets" AppPath="Raw/hybrid_root" x:Name="webview" />
+        <hwv:HybridWebView x:Name="webview" 
+                           AppName="VueApp"
+                           AppPath="Raw/hybrid_root" 
+                           FileName="index.html"
+                           AllSensorsAccess="True"/>
     </Grid>
 </Page>

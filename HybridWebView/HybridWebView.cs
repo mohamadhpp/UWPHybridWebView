@@ -8,7 +8,7 @@ namespace HybridWebView
 {
     public sealed class HybridWebView : WebView2
     {
-        private string _appPath;
+        private string _appPath = "Assets";
 
 
         #region App Configuration
@@ -22,7 +22,7 @@ namespace HybridWebView
         {
             get
             {
-                return AppPath;
+                return _appPath;
             }
             set
             {
