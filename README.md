@@ -62,6 +62,8 @@ ExecuteJsScriptAsync(string methodName, string[] args)
 ```
 Example:
 ```
+string[] names = { "John" };
+
 webview.ExecuteJsScriptAsync("SayMyName", names);
 webview.ExecuteJsScriptAsync("JsMethod", null);
 ```
